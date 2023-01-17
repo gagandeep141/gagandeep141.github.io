@@ -1,0 +1,27 @@
+body{
+  background-color: #dfdedf;
+  padding: 30px;
+  border: 1px solid ; 
+}
+h1{
+  background-color: rgba(255,255,255);
+  margin: 4px auto;
+  font-size: 2em;
+  border-radius: 10px;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+#image{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 3px auto;
+}
+#img-caption{
+  font-size: 1em;
+  font-family: cursive;
+  margin: 0.5em auto;
+  text-align: center;
+}
