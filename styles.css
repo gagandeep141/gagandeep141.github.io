@@ -1,20 +1,20 @@
-body{
-  background-color: #dfdedf;
-  padding: 30px;
-  border: 1px solid ; 
-}
-h1{
-  background-color: rgba(255,255,255);
-  margin: 4px auto;
+  background-color: rgba(255,255,0);
+  padding: -2px auto;
+  margin: 0 auto;
+  width: 50%;
   font-size: 2em;
   border-radius: 10px;
   text-align: center;
 }
-p{
-  text-align: center;
+
+.main{
+  border: 1px solid green;
+  padding: 0;
+  margin: 2% 0 0 0; 
 }
+
 #image{
-  display: block;
+  display: inline;
   max-width: 100%;
   height: auto;
   margin: 3px auto;
@@ -24,4 +24,16 @@ p{
   font-family: cursive;
   margin: 0.5em auto;
   text-align: center;
+}
+#img-div{
+  float: left;
+  width: 20%;
+}
+.right{
+  float:left;
+  width:70%;
+  margin: 1% 0;
+  text-align: center;
+  border: 2px solid black;
+  height: auto;
 }
