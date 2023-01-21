@@ -1,3 +1,15 @@
+body{
+  margin: 0%;
+  background-color: #dfdedf;
+  padding: 0 1%;
+  border: 1px solid black; 
+}
+
+#main{
+  border: 1px solid red;
+}
+#title{
+  border: 1px solid blue;
   background-color: rgba(255,255,0);
   padding: -2px auto;
   margin: 0 auto;
@@ -37,3 +49,4 @@
   border: 2px solid black;
   height: auto;
 }
+
