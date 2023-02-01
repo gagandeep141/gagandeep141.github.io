@@ -1,22 +1,24 @@
+*{
+  box-sizing: border-box;
+}
 body{
   margin: 0%;
-  background-color: #dfdedf;
+  background-color: #45b8ac;
   padding: 0 1%;
-  border: 1px solid black; 
+  
 }
 
-#main{
-  border: 1px solid red;
-}
 #title{
-  border: 1px solid blue;
-  background-color: rgba(255,255,0);
-  padding: -2px auto;
+  font-size:1 em;
+  background-color: #3fa69c;
+  color: white;
+  padding: auto;
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
   font-size: 2em;
   border-radius: 10px;
   text-align: center;
+  box-shadow: 0.2em 0.2em 0.2em 0em #1c4a45;
 }
 
 .main{
@@ -27,15 +29,20 @@ body{
 
 #image{
   display: inline;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
-  margin: 3px auto;
+  margin: 0px auto;
+  border-radius: 10px;
 }
 #img-caption{
+  background-color: #2a6f68;
+  color: #ccc;
   font-size: 1em;
   font-family: cursive;
-  margin: 0.5em auto;
   text-align: center;
+  padding: 0.5em;
+  width: 80%;
+  box-shadow: 2px 2px 4px 0px #0e2523; 
 }
 #img-div{
   float: left;
