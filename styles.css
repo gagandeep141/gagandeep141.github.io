@@ -155,3 +155,13 @@ h2{
 .detail-list{
   list-style-type: square;
 }
+
+@media screen and (max-width: 800px) {
+  .left-side, .right-side {
+  width: 100%;
+}
+.image img{
+  height: 100%;
+ }
+}
+
